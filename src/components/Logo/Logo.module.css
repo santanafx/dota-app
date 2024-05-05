@@ -1,0 +1,5 @@
+.logo {
+  width: 10%;
+  border: 1px solid var(--black);
+  border-radius: 1rem;
+}
