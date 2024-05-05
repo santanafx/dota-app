@@ -1,0 +1,48 @@
+.HomeMenuNav {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.HomeMenuContainer {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  background-color: var(--black);
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+  /* margin-top: 1rem; */
+
+  li {
+    background-color: var(--black);
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    background-color: var(--black);
+    color: var(--white);
+  }
+}
+
+.HomeMenuInputContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  background-color: var(--black);
+}
+
+.SearchIcon {
+  color: var(--white);
+  font-size: 24px;
+  background-color: var(--black);
+  margin-right: 0.3rem;
+}
+
+.HomeMenuInput {
+  border-radius: 0.5rem;
+  min-width: 390px;
+  border: 1px solid transparent;
+  padding: 0.5rem 0.8rem;
+  color: var(--white);
+}
